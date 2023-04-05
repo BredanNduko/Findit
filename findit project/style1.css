@@ -1,0 +1,127 @@
+/* Header */
+
+header {
+    background-color: #002244;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #e7870ac0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Body */
+
+body {
+    background-color#004170;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+
+.search-container h1 {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    width: 500px;
+}
+
+.search-container button[type="submit"] {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #f7a026;
+    color: #fff;
+    cursor: pointer;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+}
+.profile {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+    background-color: #f7941d;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    .profile hover {
+        transform: translateY(-5px);
+    }
+}
+.profile img {
+    width: 30%;
+    height: 30px;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.profile h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.profile p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #ddd;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+footer a {
+    color: #333;
+    text-decoration: none;
+}

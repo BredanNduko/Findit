@@ -1,0 +1,64 @@
+<style>
+    body {
+        background-color: #ffff4 ;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+  
+    label {
+      font-weight: bold;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+  
+    input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  
+    input[type="submit"]:hover {
+      background-color: #0069d9;
+    }
+  
+    a {
+      color: #007bff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  
+  <form action="/login" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+  
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+  
+    <a href="/forgot-password">Forgot password?</a>
+  
+    <input type="submit" value="Log in">
+  </form>
+  

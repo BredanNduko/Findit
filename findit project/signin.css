@@ -1,0 +1,73 @@
+/* Registration Form Styles */
+
+form[action="/register"] {
+    background-color: #f7fafc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form[action="/register"] label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form[action="/register"] input[type="text"],
+form[action="/register"] input[type="email"],
+form[action="/register"] input[type="password"],
+form[action="/register"] input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+form[action="/register"] input[type="submit"] {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Login Form Styles */
+
+form[action="/login"] {
+    background-color: #f7fafc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form[action="/login"] label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form[action="/login"] input[type="text"],
+form[action="/login"] input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+form[action="/login"] a {
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #3b82f6;
+}
+
+form[action="/login"] input[type="submit"] {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

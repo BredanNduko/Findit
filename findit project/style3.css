@@ -1,0 +1,117 @@
+        /* Set background color and font */
+    
+    body {
+        background-color: #f6f6f6;
+        font-family: Arial, sans-serif;
+    }
+    /* Style the header */
+    
+    header {
+        background-image: linear-gradient(to bottom, #feac5e, #c779d0, #4bc0c8);
+        color: #fff;
+        padding: 20px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    header a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    header a:hover {
+        color: #eee;
+    }
+    
+    header .logo {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    
+    header:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url("https://cdn.pixabay.com/photo/2021/02/16/05/18/paper-6013699_1280.jpg") no-repeat center center;
+        background-size: cover;
+        opacity: 0.3;
+        z-index: -1;
+    }
+    /* Style the search bar */
+    
+    #search-bar {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 25px;
+        margin: 20px auto;
+        max-width: 600px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    #search-bar input[type="text"] {
+        border: none;
+        font-size: 24px;
+        width: 80%;
+        padding: 10px;
+        outline: none;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+    
+    #search-bar input[type="submit"] {
+        background-image: linear-gradient(to bottom right, #feac5e, #c779d0, #4bc0c8);
+        border: none;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 24px;
+        padding: 10px 20px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    #search-bar input[type="submit"]:hover {
+        transform: scale(1.1);
+    }
+    /* Style the user profiles */
+    
+    .user-profile {
+        background-color: #fff;
+        border-radius: 25px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        margin: 20px;
+        overflow: hidden;
+        width: calc(33.33% - 40px);
+        float: left;
+        transition: all 0.3s ease;
+    }
+    
+    .user-profile:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    }
+    
+    .user-profile img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+    }
+    
+    .user-profile .user-info {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .user-profile h2 {
+        margin-top: 0;
+        font-size: 24px;
+        font-weight:
